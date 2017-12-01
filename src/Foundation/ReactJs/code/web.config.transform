@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<configuration  xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1">
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly xdt:Transform="InsertIfMissing" xdt:Locator="Condition(asmv1:assemblyIdentity/@name='Newtonsoft.Json')">
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" xmlns="urn:schemas-microsoft-com:asm.v1"/>
+        <bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0"  xmlns="urn:schemas-microsoft-com:asm.v1"/>
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly xdt:Transform="Replace" xdt:Locator="Condition(asmv1:assemblyIdentity/@name='Newtonsoft.Json')">       
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" xmlns="urn:schemas-microsoft-com:asm.v1"/>
+        <bindingRedirect oldVersion="0.0.0.0-10.0.0.0" newVersion="10.0.0.0"  xmlns="urn:schemas-microsoft-com:asm.v1"/>
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly xdt:Transform="InsertIfMissing" xdt:Locator="Condition(asmv1:assemblyIdentity/@name='JavaScriptEngineSwitcher.Core')">
+        <assemblyIdentity name="JavaScriptEngineSwitcher.Core" publicKeyToken="c608b2a8cc9e4472" culture="neutral" xmlns="urn:schemas-microsoft-com:asm.v1"/>
+        <bindingRedirect oldVersion="2.0.0.0-2.4.9.0" newVersion="2.4.9.0"  xmlns="urn:schemas-microsoft-com:asm.v1"/>
+      </dependentAssembly>
+    </assemblyBinding>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly xdt:Transform="InsertIfMissing" xdt:Locator="Condition(asmv1:assemblyIdentity/@name='WebGrease')">
+        <assemblyIdentity name="WebGrease" publicKeyToken="31bf3856ad364e35" culture="neutral" xmlns="urn:schemas-microsoft-com:asm.v1"/>
+        <bindingRedirect oldVersion="1.0.0.0-1.5.2.14234" newVersion="1.5.2.14234"  xmlns="urn:schemas-microsoft-com:asm.v1"/>
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>

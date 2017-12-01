@@ -1,0 +1,29 @@
+﻿---
+ID: "0d4b9c4b-e272-439a-9d26-e4b222afddfb"
+Parent: "b6f628e5-5f85-4f98-9041-0d203e0ebf17"
+Template: "f31db7e6-605c-4ef3-84c8-4238961f5649"
+Path: /sitecore/layout/Renderings/Feature/FAQ/FAQ React Accordion
+DB: master
+SharedFields:
+- ID: "11421560-0bcb-403a-b099-8595c34341fd"
+  Hint: JavaScript inline
+  Value: |
+    https://fb.me/react-0.14.3.min.js
+    https://fb.me/react-dom-0.14.3.min.js
+- ID: "ded9e431-3604-4921-a4b3-a6ec7636a5b6"
+  Hint: Controller Action
+  Value: FaqAccordionReact
+- ID: "e64ad073-dfcc-4d20-8c0b-fe5aa6226cd7"
+  Hint: Controller
+  Value: Faq
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171201T134745Z
+    - ID: "32dc983f-cd27-4644-8a40-41f86aa464e4"
+      Hint: JSX File
+      Value: ~/Views/FAQ/FaqAccordionReact.jsx
